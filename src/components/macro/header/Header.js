@@ -1,6 +1,6 @@
 import React from 'react';
-import Bootstrap from 'bootstrap'
 import './Header.css';
+import  Profile  from '../../../assets/images/profileimg.jpg'
 
 function Header() {
     return <>
@@ -22,7 +22,7 @@ function Header() {
                                 <a href="#" className="dropdown-toggle" data-toggle="dropdown" id="dropdownMenu3" aria-haspopup="true"
                                     aria-expanded="false">
                                     <div className="profile_img">
-                                        {/* <img src="assets/images/profileimg.jpg" className="rounded-circle" alt="" /> */}
+                                        <img src={Profile} className="rounded-circle" alt="" />
                                         <div className="user-active">
                                             <span></span>
                                         </div>
