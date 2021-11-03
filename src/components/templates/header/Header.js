@@ -1,10 +1,10 @@
 import React from 'react';
 import  Profile  from '../../../assets/images/profileimg.jpg'
-import SideMenu from '../../templates/side-bar/Side';
+
 
 function Header() {
     return <>   
-        <SideMenu/>
+        
             
         <div className="header sticky-header">
 
