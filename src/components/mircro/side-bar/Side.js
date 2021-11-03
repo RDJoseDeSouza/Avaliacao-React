@@ -1,7 +1,7 @@
 import React from 'react';
 import './Side.css'
 import Logo from '../../../assets/images/logo.png';
-
+import { Link } from 'react-router-dom'
 function SideMenu(){
 
    
@@ -32,9 +32,9 @@ function SideMenu(){
 
         {/* <!-- sidebar nav start --> */}
         <ul class="nav nav-pills nav-stacked custom-nav">
-          <li><a href="index.html"><i class="fa fa-tachometer"></i><span> Dashboard</span></a>
+          <li><Link to="/"><i class="fa fa-tachometer"></i><span> Dashboard</span></Link>
           </li>
-          <li><a href="cards.html"><i class="fa fa-cogs"></i> <span>Default cards</span></a></li>
+          <li><Link to="/"><i class="fa fa-cogs"></i> <span>Default cards</span></Link></li>
           <li><a href="pricing.html"><i class="fa fa-table"></i> <span>Pricing tables</span></a></li>
           <li><a href="blocks.html"><i class="fa fa-th"></i> <span>Content blocks</span></a></li>
           <li><a href="forms.html"><i class="fa fa-file-text"></i> <span>Forms</span></a></li>
