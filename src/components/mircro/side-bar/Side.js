@@ -34,10 +34,10 @@ function SideMenu(){
         <ul class="nav nav-pills nav-stacked custom-nav">
           <li><Link to="/"><i class="fa fa-tachometer"></i><span> Dashboard</span></Link>
           </li>
-          <li><Link to="/"><i class="fa fa-cogs"></i> <span>Default cards</span></Link></li>
-          <li><a href="pricing.html"><i class="fa fa-table"></i> <span>Pricing tables</span></a></li>
-          <li><a href="blocks.html"><i class="fa fa-th"></i> <span>Content blocks</span></a></li>
-          <li><a href="forms.html"><i class="fa fa-file-text"></i> <span>Forms</span></a></li>
+          <li><Link to="/cards"> <i class="fa fa-cogs"></i> <span>Default cards</span> </Link></li>
+          <li><Link to="pricing"><i class="fa fa-table"></i> <span>Pricing tables</span></Link></li>
+          <li><Link to="/blocks"><i class="fa fa-th"></i> <span>Content blocks</span></Link></li>
+          <li><Link to="/forms"><i class="fa fa-file-text"></i> <span>Forms</span></Link></li>
         </ul>
         {/* <!-- //sidebar nav end -->
         <!-- toggle button start --> */}
@@ -49,6 +49,7 @@ function SideMenu(){
       </div>
     </div>
     {/* <!-- //sidebar menu end --> */}
+   
     
     </>
 

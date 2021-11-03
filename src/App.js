@@ -13,8 +13,9 @@ import Footer from './components/macro/footer/Footer';
 function App() {
   return (<>
     <section>
-      <Header/>
+     
       <Router>
+        <Header/>
         <Routes/>
      </Router>
      <Footer/>

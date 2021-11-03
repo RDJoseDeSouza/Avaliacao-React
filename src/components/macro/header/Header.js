@@ -1,6 +1,6 @@
 import React from 'react';
 import  Profile  from '../../../assets/images/profileimg.jpg'
-import SideMenu from '../side-bar/Side';
+import SideMenu from '../../mircro/side-bar/Side';
 
 function Header() {
     return <>   
