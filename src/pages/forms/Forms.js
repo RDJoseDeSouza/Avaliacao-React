@@ -1,4 +1,5 @@
 import React from 'react'
+import BreadCrumb from '../../components/macro/breadCrumb/BreadCrumb'
 
 function Forms(){
     return<>
@@ -7,16 +8,8 @@ function Forms(){
 
       {/* <!-- content --> */}
       <div className="container-fluid content-top-gap">
+        <BreadCrumb current="Forms"/>
 
-        {/* <!-- breadcrumbs --> */}
-        <nav aria-label="breadcrumb" className="mb-4">
-          <ol className="breadcrumb my-breadcrumb">
-            <li className="breadcrumb-item"><a href="index.html">Home</a></li>
-            <li className="breadcrumb-item active" aria-current="page">Forms</li>
-          </ol>
-        </nav>
-        {/* <!-- //breadcrumbs -->
-        <!-- forms --> */}
         <section className="forms">
           {/* <!-- forms 1 --> */}
           <div className="card card_border py-2 mb-4">

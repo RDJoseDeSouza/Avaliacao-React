@@ -3,6 +3,7 @@ import Template2 from '../../assets/images/template2.jpg'
 import Cart from '../../assets/images/cart.jpg'
 import Dashboard from '../../assets/images/dashboard.jpg'
 import Desk from "../../assets/images/desk.jpg"
+import BreadCrumb from '../../components/macro/breadCrumb/BreadCrumb'
 
 function Cards(){
     return <>
@@ -10,13 +11,8 @@ function Cards(){
       {/* <!-- content --> */}
       <div className="container-fluid content-top-gap">
         {/* <!-- breadcrumbs --> */}
-        <nav aria-label="breadcrumb" className="mb-4">
-          <ol className="breadcrumb my-breadcrumb">
-            <li className="breadcrumb-item"><a href="index.html">Home</a></li>
-            <li className="breadcrumb-item"><a href="#">Elements</a></li>
-            <li className="breadcrumb-item active" aria-current="page">Cards</li>
-          </ol>
-        </nav>
+        <BreadCrumb current="Cards"/>
+
         {/* <!-- //breadcrumbs -->
         <!-- cards --> */}
         <section className="template-cards">
