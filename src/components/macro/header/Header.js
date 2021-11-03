@@ -19,8 +19,7 @@ function Header() {
                     <div className="profile_details">
                         <ul>
                             <li className="dropdown profile_details_drop">
-                                <a href="#" className="dropdown-toggle" data-toggle="dropdown" id="dropdownMenu3" aria-haspopup="true"
-                                    aria-expanded="false">
+                                <a href="#" className="" >
                                     <div className="profile_img">
                                         <img src={Profile} className="rounded-circle" alt="" />
                                         <div className="user-active">
