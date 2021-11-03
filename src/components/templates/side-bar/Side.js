@@ -2,10 +2,11 @@ import React from 'react';
 import './Side.css'
 import Logo from '../../../assets/images/logo.png';
 import { Link } from 'react-router-dom'
-function SideMenu(){
+function SideMenu(props){
 
    
     return<>
+
      {/* <!-- sidebar menu start --> */}
     <div class="sidebar-menu  sticky-sidebar-menu">
 
@@ -41,7 +42,7 @@ function SideMenu(){
         </ul>
         {/* <!-- //sidebar nav end -->
         <!-- toggle button start --> */}
-        <a class="toggle-btn" /*</div>onclick={()=>toggleMenu()}*/ >
+        <a class="toggle-btn" onClick={()=>props.function()} >
           <i class="fa fa-angle-double-left menu-collapsed__left"><span>Collapse Sidebar</span></i>
           <i class="fa fa-angle-double-right menu-collapsed__right"></i>
         </a>
