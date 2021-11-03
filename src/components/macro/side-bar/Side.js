@@ -1,10 +1,13 @@
 import React from 'react';
 import './Side.css'
+import Logo from '../../../assets/images/logo.png';
 
 function SideMenu(){
+
+   
     return<>
      {/* <!-- sidebar menu start --> */}
-    <div class="sidebar-menu sticky-sidebar-menu">
+    <div class="sidebar-menu  sticky-sidebar-menu">
 
       {/* <!-- logo start --> */}
       <div class="logo">
@@ -21,7 +24,7 @@ function SideMenu(){
       {/* <!-- //image logo --> */}
 
       <div class="logo-icon text-center">
-        <a href="index.html" title="logo"><img src="assets/images/logo.png" alt="logo-icon"/> </a>
+        <a href="index.html" title="logo"><img src={Logo} alt="logo-icon"/> </a>
       </div>
       {/* <!-- //logo end --> */}
 
@@ -38,7 +41,7 @@ function SideMenu(){
         </ul>
         {/* <!-- //sidebar nav end -->
         <!-- toggle button start --> */}
-        <a class="toggle-btn" onclick="toggleMenu()">
+        <a class="toggle-btn" /*</div>onclick={()=>toggleMenu()}*/ >
           <i class="fa fa-angle-double-left menu-collapsed__left"><span>Collapse Sidebar</span></i>
           <i class="fa fa-angle-double-right menu-collapsed__right"></i>
         </a>

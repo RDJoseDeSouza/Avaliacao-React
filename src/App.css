@@ -3079,7 +3079,8 @@
   
   .checkbox input + i:after {
     content: '';
-    background: url("../images/mark2.png") no-repeat center;
+    /* não encontrada */
+    /* background: url("../images/mark2.png") no-repeat center; */
     top: 0px;
     left: 0px;
     width: 17px;
@@ -3849,7 +3850,7 @@
   .search_box input[type="submit"] {
     border: none;
     cursor: pointer;
-    background: #424f63 url(../images/search.png) no-repeat center;
+    background: #424f63 url(./assets/images/search.png) no-repeat center;
     position: absolute;
     right: 0;
     width: 35px;
@@ -4002,7 +4003,7 @@
     cursor: pointer; }
   
   .sb-search-submit {
-    background: #fff url("../images/search.png") no-repeat 5px 7px;
+    background: #fff url("./assets/images/search.png") no-repeat 5px 7px;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     /* IE 8 */
     filter: alpha(opacity=0);
@@ -4014,7 +4015,7 @@
     -webkit-appearance: none; }
   
   .sb-icon-search {
-    background: #fff url("../images/search.png") no-repeat 5px 7px;
+    background: #fff url("./assets/images/search.png") no-repeat 5px 7px;
     z-index: 90; }
   
   /* Open state */
@@ -4025,7 +4026,8 @@
   
   .sb-search.sb-search-open .sb-icon-search,
   .no-js .sb-search .sb-icon-search {
-    background: #c0c0c0 url("../images/img-sprite.png") no-repeat 0px 1px;
+    /* imagem não encontrada */
+    /* background: #c0c0c0 url("../images/img-sprite.png") no-repeat 0px 1px; */
     color: #fff;
     z-index: 11; }
   
@@ -4459,8 +4461,10 @@
   .wrapper-dropdown-4 i.dropdown-icon {
     width: 20px;
     height: 20px;
+
     display: block;
-    background: url(../images/up-down.png) no-repeat -8px -24px;
+    /* img não encontrada */
+    /* background: url(../images/up-down.png) no-repeat -8px -24px; */
     margin-top: 13px;
     float: right; }
   
@@ -4565,7 +4569,7 @@
     border-top-right-radius: 5px; }
   
   .img-bg {
-    background: url(../images/desk.jpg) no-repeat 0px 0px;
+    background: url(./assets/images/desk.jpg) no-repeat 0px 0px;
     background-size: cover;
     min-height: 253px; }
   
@@ -5514,7 +5518,8 @@
     position: absolute;
     left: 20px;
     top: 20px;
-    background: url(../images/cross.png) no-repeat center;
+    /* img não encontrada */
+    /* background: url(../images/cross.png) no-repeat center; */
     z-index: 100;
     cursor: pointer;
     z-index: 999; }
@@ -5572,7 +5577,7 @@
     background-color: rgba(71, 90, 171, 0.07); }
   
   select {
-    background: url(../images/down.png) no-repeat 96% 52%; }
+    background: url(./assets/images/down.png) no-repeat 96% 52%; }
   
   .input-style:focus {
     border: 1px solid var(--primary);

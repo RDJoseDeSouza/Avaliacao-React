@@ -1,10 +1,11 @@
 import React from 'react';
-import './Header.css';
 import  Profile  from '../../../assets/images/profileimg.jpg'
+import SideMenu from '../side-bar/Side';
 
 function Header() {
-    return <>
-
+    return <>   
+        <SideMenu/>
+            
         <div className="header sticky-header">
 
             {/* <!-- notification menu start --> */}
